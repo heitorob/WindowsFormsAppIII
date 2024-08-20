@@ -156,11 +156,13 @@
             // 
             // lstPRODUTOS
             // 
+            this.lstPRODUTOS.Font = new System.Drawing.Font("Microsoft Uighur", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstPRODUTOS.FormattingEnabled = true;
+            this.lstPRODUTOS.ItemHeight = 23;
             this.lstPRODUTOS.Location = new System.Drawing.Point(38, 318);
             this.lstPRODUTOS.MultiColumn = true;
             this.lstPRODUTOS.Name = "lstPRODUTOS";
-            this.lstPRODUTOS.Size = new System.Drawing.Size(504, 290);
+            this.lstPRODUTOS.Size = new System.Drawing.Size(504, 280);
             this.lstPRODUTOS.TabIndex = 11;
             this.lstPRODUTOS.TabStop = false;
             // 
@@ -189,6 +191,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 766);
+            this.ControlBox = false;
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lstPRODUTOS);
